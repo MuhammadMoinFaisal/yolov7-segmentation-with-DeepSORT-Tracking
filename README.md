@@ -16,19 +16,9 @@ The DeepSORT files are uplaoded in the Google Drive Link Below.
 [`DeepSORT Files`](https://drive.google.com/drive/folders/1YjbfZL0n6mQH-hvD_DpoxBLVj9prJMpG)
 
 ### RESULTS
-<table>
-  <tr>
-    <td>Car Semantic Segmentation</td>
-     <td>Car Semantic Segmentation</td>
-     <td>Person Segmentation + Tracking</td>
-     </tr>
-  <tr>
-    <td><img src="(./figure/Screenshot%20(350).png)" width=640 height=180></td>
-    <td><img src="https://user-images.githubusercontent.com/62513924/190402752-521b7815-bea8-4cef-8b36-54fb7a962244.png" width=640 height=180></td>
-    <td><img src="https://user-images.githubusercontent.com/62513924/191729411-a8d8b5e2-bdbf-4c0e-bd1b-a52e23f7c9d3.png" width=640 height=180></td>
-  </tr>
-  </tr>
- </table>
+
+![](./figures/Screenshot (350).png)
+
 ```
 Object detection:
  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.49629
