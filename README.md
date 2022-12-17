@@ -17,7 +17,7 @@ The DeepSORT files are uplaoded in the Google Drive Link Below.
 
 ### RESULTS
 
-![](./figures/Screenshot (350).png)
+![](./figures/1.png)
 
 ```
 Object detection:
