@@ -1,21 +1,34 @@
-# yolov7
+# YOLOv7 Segmentation with DeepSORT Tracking
 
-Implementation of "YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors"
-
-This implimentation is based on [yolov5](https://github.com/ultralytics/yolov5).
-
-All of installation, data preparation, and usage are as same as yolov5.
-
-## Training
-
-``` shell
-python segment/train.py --data coco.yaml --batch 16 --weights '' --cfg yolov7-seg.yaml --epochs 300 --name yolov7-seg --img 640 --hyp hyp.scratch-high.yaml
-```
-
-## Results
+I have implemented the YOLOv7 Segmantation with DeepSORT Tracking, please support by giving a star.
 
 [`yolov7-seg.pt`](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-seg.pt)
 
+## Colab File Link 
+The google colab file link is provided below, you can check the implementation in Google Colab, and its a single click implementation, you just need to select the Run Time as GPU, and click on Run All.
+
+[`Google Colab File`](https://colab.research.google.com/drive/1I6_UpDniCsOrL5fj_bTX337Jo_UWhPGQ?usp=sharing)
+
+
+## DeepSORT Files
+
+The DeepSORT files are uplaoded in the Google Drive Link Below.
+[`DeepSORT Files`](https://drive.google.com/drive/folders/1YjbfZL0n6mQH-hvD_DpoxBLVj9prJMpG)
+
+### RESULTS
+<table>
+  <tr>
+    <td>Car Semantic Segmentation</td>
+     <td>Car Semantic Segmentation</td>
+     <td>Person Segmentation + Tracking</td>
+     </tr>
+  <tr>
+    <td><img src="[https://github.com/MuhammadMoinFaisal/yolov7-segmentation-with-DeepSORT-Tracking/blob/main/figure/Screenshot%20(350).png]" width=640 height=180></td>
+    <td><img src="https://user-images.githubusercontent.com/62513924/190402752-521b7815-bea8-4cef-8b36-54fb7a962244.png" width=640 height=180></td>
+    <td><img src="https://user-images.githubusercontent.com/62513924/191729411-a8d8b5e2-bdbf-4c0e-bd1b-a52e23f7c9d3.png" width=640 height=180></td>
+  </tr>
+  </tr>
+ </table>
 ```
 Object detection:
  Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.49629
