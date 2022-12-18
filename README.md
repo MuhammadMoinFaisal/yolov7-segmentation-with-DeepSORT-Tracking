@@ -51,7 +51,7 @@ pip install --upgrade pip
 ```
 pip install -r requirements.txt
 ```
-- Download weights from [link](https://github.com/RizwanMunawar/yolov7-segmentation/releases/download/yolov7-segmentation/yolov7-seg.pt) and store in "yolov7-segmentation" directory.
+- Download weights from [link](https://github.com/RizwanMunawar/yolov7-segmentation/releases/download/yolov7-segmentation/yolov7-seg.pt) and store in "yolov7-segmentation-with-DeepSORT-Tracking" directory.
 
 - Run the code with mentioned command below.
 ```
