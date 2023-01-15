@@ -86,5 +86,4 @@ The DeepSORT files are uplaoded in the Google Drive Link Below.
 ![](./figure/3.png)
 
 ## References
-- https://github.com/WongKinYiu/yolov7
-- https://github.com/WongKinYiu/yolov7/tree/u7/seg
+- https://github.com/ultralytics/ultralytics
